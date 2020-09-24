@@ -1,2 +1,0 @@
-# beca
-beca project
