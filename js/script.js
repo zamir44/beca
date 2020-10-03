@@ -1,9 +1,3 @@
-
-
-
-
-
-
 const header = document.getElementById("menu-wrapper");
 
 window.addEventListener(
@@ -16,6 +10,47 @@ window.addEventListener(
   { passive: true }
 );
 
+const employee_wrapper = document.querySelector(".employers-images");
+let employees = [];
+
+fetch("../data/employees.json")
+  .then((res) => res.json())
+  .then((data) => {
+    data.items.forEach((employee) => {
+      let item = document.createElement("a");
+      item.classList.add("employer");
+
+      item.setAttribute("data-name", employee.name);
+      item.setAttribute("data-image", employee.image);
+      item.setAttribute("data-position", employee.position);
+
+      item.innerHTML = `
+          <img src="${employee.thumbnail}">
+      `;
+
+      employee_wrapper.appendChild(item);
+    });
+
+    loadEmpoloyee();
+  });
+
+function loadEmpoloyee() {
+  const employeers = document.querySelectorAll(".employer");
+  const employer_name = document.getElementById("employer--name");
+  const employer_img = document.getElementById("employer--image");
+  const employer_position = document.getElementById("employer--position");
+
+  employeers.forEach((employee) => {
+    employee.addEventListener("click", (e) => {
+      e.preventDefault();
+
+      employer_name.innerHTML = employee.dataset.name;
+      employer_img.src = employee.dataset.image;
+      employer_position.innerHTML = employee.dataset.position;
+    });
+  });
+}
+
 // window.onscroll = function () {
 //   var top = window.scrollY;
 
@@ -25,7 +60,6 @@ window.addEventListener(
 //     header.classList.remove("sticky");
 //   }
 // };
-
 
 // Hero parallax scroll
 
@@ -44,6 +78,3 @@ window.addEventListener(
 //optional second value for speed
 //background_image_parallax($(".hero-img"), 0.95);
 // address the problem with the exposing upper part of the hero section
-
-
-

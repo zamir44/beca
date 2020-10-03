@@ -1,0 +1,23 @@
+{
+    "items": [
+        {
+            "name": "Bruce Beamont",
+            "thumbnail": "img/lineas_files/beca-headshots-bruce.png",
+            "image": "img/lineas_files/Group-1422.png",
+            "position": "Director",
+            "biography": "Lorem ipsum dolores sit amet"
+        },
+        {
+            "name": "Blake Anderson",
+            "thumbnail": "img/lineas_files/beca-headshots-blake.png",
+            "image": "img/lineas_files/Group-1393.png",
+            "position": "Manager"
+        },
+        {
+            "name": "Flavia",
+            "thumbnail": "img/lineas_files/beca-headshots-flavia.png",
+            "image": "img/lineas_files/Group-1392.png",
+            "position": "Cirak"
+        }
+    ]
+}
