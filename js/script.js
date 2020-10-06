@@ -23,6 +23,7 @@ fetch("../data/employees.json")
       item.setAttribute("data-name", employee.name);
       item.setAttribute("data-image", employee.image);
       item.setAttribute("data-position", employee.position);
+      item.setAttribute("data-description", employee.description);
 
       item.innerHTML = `
           <img src="${employee.thumbnail}">
@@ -39,6 +40,7 @@ function loadEmpoloyee() {
   const employer_name = document.getElementById("employer--name");
   const employer_img = document.getElementById("employer--image");
   const employer_position = document.getElementById("employer--position");
+  const employer_description = document.getElementById("employer--description");
 
   employeers.forEach((employee) => {
     employee.addEventListener("click", (e) => {
@@ -47,6 +49,7 @@ function loadEmpoloyee() {
       employer_name.innerHTML = employee.dataset.name;
       employer_img.src = employee.dataset.image;
       employer_position.innerHTML = employee.dataset.position;
+      employer_description.innerHTML = employee.dataset.description;
     });
   });
 }

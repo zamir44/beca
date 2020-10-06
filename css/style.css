@@ -120,6 +120,75 @@ body {
   -o-transition: border 0.4s;
 }
 
+/*** SUB MENU ***/
+
+.sub-menu {
+  width: 20rem;
+  height: auto;
+  background-color: rgba(145, 18, 33, 1);
+  overflow: hidden;
+  position: absolute;
+  right: -8rem;
+  margin-top: 2.8rem;
+  padding: 2.5rem;
+  display: none;
+  
+}
+
+.about:hover .sub-menu {
+  width: 20rem;
+  height: auto;
+  background-image: linear-gradient(to bottom, #c8253a, #911221);
+  overflow: hidden;
+  position: absolute;
+  margin-top: 2.8rem;
+  padding: 2.5rem;
+  display: block;
+  
+}
+
+.services:hover .sub-menu {
+  width: 25rem;
+  height: auto;
+  background-image: linear-gradient(to bottom, #c8253a, #911221);
+  overflow: hidden;
+  position: absolute;
+  left: -9rem;
+  margin-top: 2.8rem;
+  padding: 2.5rem;
+  display: block;
+}
+
+.industries:hover .sub-menu {
+  width: 25rem;
+  height: auto;
+  background-image: linear-gradient(to bottom, #c8253a, #911221);
+  overflow: hidden;
+  position: absolute;
+  left: -9rem;
+  margin-top: 2.8rem;
+  padding: 2.5rem;
+  display: block;
+}
+
+
+.main-nav li .sub-menu li a:hover {
+  font-weight: 700;
+  color: #2bdad6;
+  text-decoration: none ;
+  letter-spacing: 1px ;
+  border-bottom: none;
+}
+
+.sticky .main-nav li .sub-menu li a:hover {
+  border-bottom: none;
+}
+
+.menu-item {
+  margin-bottom: 1rem;
+}
+
+
 /*** STICKY NAV ***/
 
 .sticky {
@@ -152,6 +221,8 @@ body {
 .sticky .main-nav .right-menu li a:hover {
   border-bottom: 3px solid #2bdad6;
   opacity: 0.9;
+  position: relative;
+  z-index: 20;
 }
 
 .sticky .main-nav .logo-blue {
@@ -412,10 +483,19 @@ body {
   flex-direction: row;
   max-width: 75%;
   margin: 7rem auto;
+  padding-bottom: 11rem;
 }
 
 .img-card {
   margin-left: 5rem;
+}
+
+.img-card img {
+  height: 5rem;
+}
+
+.img-card-content {
+  display: flex;
 }
 
 .img-card h3 {
@@ -448,7 +528,7 @@ body {
   vertical-align: bottom;
 }
 
-.person-info p {
+#employer--position  {
   font-size: 1.5rem;
   font-weight: 900;
   color: #fff;
@@ -456,6 +536,10 @@ body {
   letter-spacing: 0.5px;
   background-color: #c8253a;
   padding: 1rem 2rem;
+}
+
+#employer--description {
+  margin-top: 3rem;
 }
 
 /*** FOOTER ***/

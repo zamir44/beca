@@ -5,19 +5,85 @@
             "thumbnail": "img/lineas_files/beca-headshots-bruce.png",
             "image": "img/lineas_files/Group-1422.png",
             "position": "Director",
-            "biography": "Lorem ipsum dolores sit amet"
-        },
-        {
-            "name": "Blake Anderson",
-            "thumbnail": "img/lineas_files/beca-headshots-blake.png",
-            "image": "img/lineas_files/Group-1393.png",
-            "position": "Manager"
+            "description": "Having been working with technology for 34 years, Bruce enjoys that the industry is constantly changing from day to day offering a challenge When he’s finished up a hard week’s work, Bruce enjoys relaxing with his wife and working on projects around the house. <br><br>Favorite Superhero: Iron Man. <br><br> Certifications: Mitel Certified Engineer, WatchGuard Network Engineer, WatchGuard Wireless, Datto Technical Specialist 2, Webroot, CompTIA A+, HIPAA Security Basics, HIPAA Business Associate"
         },
         {
             "name": "Flavia",
             "thumbnail": "img/lineas_files/beca-headshots-flavia.png",
             "image": "img/lineas_files/Group-1392.png",
-            "position": "Cirak"
+            "position": "Advanced Service Engineer",
+            "description": "Flavia has worked in the technology industry for fifteen years and is a Fortinet NSE 4 Network Security Professional. Her favorite part about working in technology is the ability to always be learning. In her spare time, Flavia enjoys traveling and spending time with her family.<br><br> Favorite Food: Brazilian Food <br><br>Certifications: WatchGuard Firewall Essentials, Fortinet NSE 4 – Network Security Professional"
+        },
+        {
+            "name": "Justin Estep",
+            "thumbnail": "img/lineas_files/beca-headshots-justin.png",
+            "image": "img/lineas_files/Group-1390.png",
+            "position": "Director, Managed Services",
+            "description": "After graduating with a degree in Computer Science and a minor in Mathematics from the University of Alabama, Justin joined the BECA team in 2017. Prior to joining full-time, Justin interned with BECA over the summer months. In his spare time, Justin enjoys cooking and playing video games.<br><br> Favorite Food: Any Seafood <br><br> Certifications: WatchGuard Certified Engineer Firewall Essentials, WatchGuard Certified Engineer Firewall Wireless, CompTIA A+, Microsoft 365 Certified Fundamentals, Microsoft US Customer Immersion Experience Facilitator, WSAB Endpoint Technical Certification, WSAB Endpoint Sales Certification for Partners"
+        },
+        {
+            "name": "Will Estep",
+            "thumbnail": "img/lineas_files/beca-headshots-will.png",
+            "image": "img/lineas_files/Group-1395.png",
+            "position": "Senior Ase",
+            "description": "After receiving his degree in Computer Science from The University of Alabama, Will joined the BECA team full-time in 2016. Prior to that, he spent over 4 years interning as a tech during the summer months. When he isn’t at work, Will enjoys playing video games and reading.<br><br> Favorite Superhero: Iron Man <br><br> Certifications: Cisco Certified Network Associate (CCNA), Automate Technical Certifications, Webroot Technical Certifications, Datto Technical Certifications, and Sophos Technical Certifications"
+        },
+        {
+            "name": "Blake Boyd",
+            "thumbnail": "img/lineas_files/beca-headshots-blake.png",
+            "image": "img/lineas_files/Group-1393.png",
+            "position": "Director of Client Success",
+            "description": "After receiving his Bachelor’s Degree from The University of Alabama, Blake joined the BECA team full-time in 2016, having previously worked part-time with the company since 2013. His favorite tech gadget currently is his reMarkable Tablet. Outside of work, Blake enjoys playing video games, traveling, and spending time with his wife and new son.<br><br> Favorite Superhero: Batman – My two cats are Batman and Robin!<br><br> Certifications: Datto Sales Specialist I, Datto Technical Specialist I, Webroot Master Certified, ADP Leadership Challenge Workshop, Varnex University Graduate, Western Digital Certified Implementation Engineer, Tegile Certified Sales Specialist, WatchGuard WiFi Cloud Technical Certification, Lenovo Product Certifications, WatchGuard Product Certifications, Microsoft Customer Immersion Experience Certification"
+        },
+        {
+            "name": "Scott Bemis",
+            "thumbnail": "img/lineas_files/red-Scott-Bemis-2-removebg-preview.jpg",
+            "image": "img/lineas_files/red-Scott-Bemis-removebg-preview.jpg",
+            "position": "Director of Client Success",
+            "description": "Scott joined the BECA family as the Senior Vice President of Operations in early 2020 and has enjoyed learning all of the new and challenging aspects of the technology industry. When he isn’tworking, Scott enjoys hiking, golfing, and discovering local breweries.<br><br> Favorite Superhero: Spiderman"
+        },
+        {
+            "name": "Sherrie Estep",
+            "thumbnail": "img/lineas_files/beca-headshots-sherri-2.png",
+            "image": "img/lineas_files/Group-1417.png",
+            "position": "Office manager/HR Director",
+            "description": "Having joined the BECA family in 2014, Sherrie’s favorite part about working in technology is that there is always something new and challenging. She also enjoys having the opportunity to work with and see her family every day. When she isn’t in the office, you can find Sherrie spending time with her family on the lake, working out, or traveling on road trips with her husband.<br><br> Favorite Food: Does coffee count?"
+        },
+        {
+            "name": "Sean Barron",
+            "thumbnail": "img/lineas_files/beca-headshots-sean.png",
+            "image": "img/lineas_files/Group-1384.png",
+            "position": "Advanced Services",
+            "description": "Sean has been working in the technology industry since 1997, and his favorite part about it is learning new things and seeing all the ways that technology can be used to improve our quality of life. His hobbies include cycling, backpacking, hiking, and sports – particularly baseball and football. Outside of work, Sean enjoys spending time outdoors with his family.<br><br>Favorite Superhero: Superman<br><br>Certifications: MCSA – Server 2012, MCSA – Office 365, MCP – Windows 7 Configuring, MCP – Windows 7, Microsoft Enterprise Desktop Administrator, MCP – Administering Office 365 for Small Business, MCITP – Enterprise Desktop Administrator, Tegile Certified Installer, WatchGuard Firewall Policies Administrator, Datto Technical Specialist I"
+        },
+        {
+            "name": "Jarvis Williams",
+            "thumbnail": "img/lineas_files/beca-headshots-jarvis.png",
+            "image": "img/lineas_files/Group-1380.png",
+            "position": "Help Desk Engineer",
+            "description": "Jarvis joined the BECA family in 2018 helping our customers as part of our Help Desk team. When he isn’t in the office, Jarvis enjoys gaming and playing basketball. In the future, he hopes to see technology become more streamlined and offer a solution to more affordable medical care.<br><br>Favorite Food: Mac N Cheese<br><br>Certifications: CompTIA IT Fundamentals"
+        },
+        {
+            "name": "Katie Boyd",
+            "thumbnail": "img/lineas_files/beca-headshots-katie.png",
+            "image": "img/lineas_files/Group-1418.png",
+            "position": "Director of Marketing",
+            "description": "After graduating with a degree in Advertising from The University of Alabama, Katie joined the BECA family in 2015. Her favorite part of working in technology is the opportunity to work with so many awesome tools and gadgets. Katie recently welcomed a baby boy and enjoys spending time with him and her husband in her spare time.<br><br> Favorite Food: Ice Cream <br><br> Certifications: BlueBeam Sales Certified, WatchGuard Sales Certified, Webroot Sales Certified"
+        },
+        {
+            "name": "Mike Ferguson",
+            "thumbnail": "img/lineas_files/beca-headshots-mike-f.png",
+            "image": "img/lineas_files/Group-1413.png",
+            "position": "Client Success Engineer",
+            "description": "After graduating with a degree in Advertising from The University of Alabama, Katie joined the BECA family in 2015. Her favorite part of working in technology is the opportunity to work with so many awesome tools and gadgets. Katie recently welcomed a baby boy and enjoys spending time with him and her husband in her spare time.<br><br> Favorite Food: Ice Cream<br><br> Certifications: BlueBeam Sales Certified, WatchGuard Sales Certified, Webroot Sales Certified"
+        },
+        {
+            "name": "Kathy Corbet",
+            "thumbnail": "img/lineas_files/beca-headshots-kathy.png",
+            "image": "img/lineas_files/Group-1419.png",
+            "position": "Service Coordinator",
+            "description": "Working in the technology industry for over five years, Kathy enjoys the constantly changing atmosphere that technology brings. She is currently part of the Operations team serving as Service Coordinator. Kathy is a mom to 2 boys and enjoys spending time with her husband and her boys. She also enjoys reading, hiking, traveling, and spending time with her husky named Emma. Bachelor of Science in Management, 2018"
         }
     ]
+    
 }
