@@ -100,14 +100,21 @@ body {
   border-bottom: 3px solid #fff;
 }
 
-.right-menu li {
+.main-nav .menu-item-contact a:focus {
+  border: none;
+}
+
+.right-menu .right-menu-item {
   font-size: 1.4rem;
   font-family: "Lato", sans-serif;
   margin-right: 2.5rem;
   list-style: none;
   position: relative;
   z-index: 44;
-  
+}
+
+.right-menu {
+  list-style-type: none;
 }
 
 .right-menu li a:hover {
@@ -120,57 +127,59 @@ body {
   -o-transition: border 0.4s;
 }
 
+.right-menu .menu-item-contact a:hover {
+  border-bottom: none;
+}
+
+.menu-item {
+  list-style: none;
+}
+
+.contact {
+  border: 2px solid #fff;
+  padding: 0.8rem 0.5rem 0.8rem  0.5rem;
+  font-size: 1.4rem;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
 /*** SUB MENU ***/
 
-.sub-menu {
+.sub-menu-wrap {
   width: 20rem;
+  padding-top: 2.3rem;
+  position: absolute;
+  top: 0;
+  right: -4.5rem;
+}
+
+.sub-menu {
+  width: 100%;
   height: auto;
   background-color: rgba(145, 18, 33, 1);
-  overflow: hidden;
   position: absolute;
   right: -8rem;
   margin-top: 2.8rem;
   padding: 2.5rem;
   display: none;
-  
 }
 
-.about:hover .sub-menu {
-  width: 20rem;
-  height: auto;
+.right-menu-item {
+  position: relative;
+  margin-right: 0px;
+  padding: 0 1rem; 
+}
+
+.right-menu-item:hover .sub-menu {
+  width: 100%;
   background-image: linear-gradient(to bottom, #c8253a, #911221);
-  overflow: hidden;
-  position: absolute;
-  margin-top: 2.8rem;
   padding: 2.5rem;
   display: block;
-  
+  box-shadow: 0 32px 60px rgba(0, 0, 0, 0.1);
 }
-
-.services:hover .sub-menu {
-  width: 25rem;
-  height: auto;
-  background-image: linear-gradient(to bottom, #c8253a, #911221);
-  overflow: hidden;
-  position: absolute;
-  left: -9rem;
-  margin-top: 2.8rem;
-  padding: 2.5rem;
-  display: block;
-}
-
-.industries:hover .sub-menu {
-  width: 25rem;
-  height: auto;
-  background-image: linear-gradient(to bottom, #c8253a, #911221);
-  overflow: hidden;
-  position: absolute;
-  left: -9rem;
-  margin-top: 2.8rem;
-  padding: 2.5rem;
-  display: block;
-}
-
 
 .main-nav li .sub-menu li a:hover {
   font-weight: 700;
@@ -178,10 +187,12 @@ body {
   text-decoration: none ;
   letter-spacing: 1px ;
   border-bottom: none;
+  
 }
 
 .sticky .main-nav li .sub-menu li a:hover {
   border-bottom: none;
+  
 }
 
 .menu-item {
@@ -189,11 +200,17 @@ body {
 }
 
 
+
+
 /*** STICKY NAV ***/
 
 .sticky {
   background: rgba(145, 18, 33, 1);
   transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
 }
 
 .sticky .main-nav .right-menu li {
@@ -207,6 +224,10 @@ body {
   color: #fff;
   letter-spacing: 1px;
   border-bottom: 3px solid transparent;
+}
+
+.sticky .menu-item-contact a:hover {
+  border: none;
 }
 
 .sticky .main-nav ul li a:focus {
@@ -700,29 +721,6 @@ body {
   float: right;
 }
 
-.square {
-  background-color: yellow;
-  width: 100%;
-  height: 15rem;
-  display: flex;
-  align-items: center;
-}
-
-.square1 {
-  height: 10rem;
-  width: 10rem;
-  background-color: red;
-  display: flex;
-  justify-content: center;
-  opacity: 0;
-}
-
-/* .white {
-  padding: 15rem;
-  width: 100%;
-  background-color: #fff;
-} */
-
 .right__circle.show {
   transform: translateY(5rem);
   -webkit-transform: translateY(5rem);
@@ -732,35 +730,3 @@ body {
   transition: all 0.5s ease-in-out;
 }
 
-.dark {
-  text-align: left;
-  background: black;
-  color: white;
-  position: relative;
-}
-
-.imge {
-  width: 50%;
-  height: 100vh;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 0;
-  object-fit: cover;
-
-}
-
-.content {
-  padding: 9em 5em;
-  z-index: 1;
-  position: relative;
-}
-
-.content h2 {
-  font-size: 5em;
-  margin-bottom: 0;
-}
-
-.content p {
-  font-size: 1.6em;
-}
