@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
     <title>BECA</title>
@@ -19,7 +20,7 @@
         <div id="menu-wrapper" class="menu-wrapper">
             <div class="container">
                 <nav class="main-nav">
-                    <a href="#">
+                    <a href="html/becacorp.html">
                         <img src="img/lineas_files/navy-logo.svg" alt="" class="logo-blue">
                         <img src="img/red-logo.svg" alt="Brain" class="logo-red">
                     </a>
@@ -28,7 +29,7 @@
                             <span class="border-menu"></span>
                         </li>
                         
-                        <li class="right-menu-item"><a href="services.html"><span class="border-menu">Services</span></a>
+                        <li class="right-menu-item"><a href=""><span class="border-menu">Services</span></a>
                             <div class="sub-menu-wrap">
                                 <ul class="sub-menu">
                                     <li class="menu-item">
@@ -57,20 +58,20 @@
                             <div class="sub-menu-wrap">
                                 <ul class="sub-menu">
                                     <li class="menu-item">
-                                        <a href="#">Legal Industry IT</a>
+                                        <a href="html/industries-legal.html">Legal Industry IT</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="#">Health Care Industry</a>
+                                        <a href="html/industries-healthcare.html">Health Care Industry</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="#">Architecture, Engineering, <br> & Construction</a>
+                                        <a href="html/industries-architecture.html">Architecture, Engineering, <br> & Construction</a>
                                     </li>
                                 </ul>
                             </div>
                         </li>
 
-                        <li class="right-menu-item"><a href="#">Testimonials</a></li>
-                        <li class="right-menu-item"><a href="#">Blogs</a></li>
+                        <li class="right-menu-item"><a href="html/testimonials.html">Testimonials</a></li>
+                        <li class="right-menu-item"><a href="html/blog.html">Blogs</a></li>
                         <li class="right-menu-item"><a href="index.html">About</a>
                             <div class="sub-menu-wrap">
                                 <ul class="sub-menu">
@@ -83,7 +84,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="menu-item-contact"><a href="#"><span class="contact">Contact</span></a>
+                        <li class="menu-item-contact"><a href="html/contact.html"><span class="contact">Contact</span></a>
                             
                         </li>
                     </ul>
@@ -92,7 +93,7 @@
         </div>
 
         <section class="header-main js--header-main">
-            <h1>about Beca</h1>
+            <h1>About Beca</h1>
             <p>Serving Georgia and the east coast since 1975</p>
             <a href="https://www.youtube.com/watch?v=lBq2LCFyiik" class="btn-header mfp-pop mfp-iframe vidplay">Watch
                 Video</a>
@@ -171,7 +172,7 @@
         </div>
     </section>
 
-    <div class="rectangle">
+    <div class="rectangle rellax" data-rellax-speed="2" data-rellax-percentage="-0.07">
         <h2>meet our <br>team</h2>
     </div>
 
@@ -244,10 +245,12 @@
     <script src="js/iFrame/iframe.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
     <!-- you need both cdn's for ScrollTrigger to work: the plugin cdn and gsap cdn -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init({
             offset: 50,
@@ -255,12 +258,21 @@
             once: true
         });
     </script>
-
+    <script src="js/relax.min.js"></script>
+    <script>
+        //default JS Setting
+        var rellax = new Rellax('.rellax', {
+        vertical:true
+        });
+    </script>
+    
+        
+    
 
     <script src="js/waypoints/jquery.waypoints.min.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/scroll.js"></script>
-    <script src="js/gsap.js"></script>
+    
+    
 
 
 

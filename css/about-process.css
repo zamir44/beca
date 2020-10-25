@@ -1,0 +1,94 @@
+
+/* #173348 */
+/* #c8253a */
+.header-main {
+    padding-top: 11rem;
+}
+
+.header-main h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: capitalize!important;
+    
+}
+
+.header-main p {
+    text-transform: capitalize!important;
+    font-weight: 900;
+}
+
+.post-header {
+    width: 100rem;
+    margin: 0 auto;
+    margin-top: 11rem;
+    text-align: center;
+}
+
+.post-header h1 {
+    font-size: 6rem;
+    font-weight: 900;
+    color: #c8253a ;
+}
+
+.post-header p {
+    font-size: 2rem;
+
+}
+
+.step-one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    /* justify-items: center; */
+}
+
+.conversation {
+    height: 60rem;
+    position: relative;
+    right: 48%;
+    top: 10rem;
+}
+
+.step-one-column {
+    width: 55rem;
+    margin: 0 -60rem;
+    margin-top: -10rem;
+}
+
+.step-one-column p:first-child {
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #92a6ad;
+}
+
+.step-one-column h2 {
+    font-size: 7rem;
+    font-weight: 900;
+    color: #173348;
+}
+
+.step-one-column p:last-child {
+    font-size: 2rem;
+
+}
+
+.step-two {
+    min-width: 55rem;
+    margin: 0 10rem;
+    margin-top: -10rem;
+}
+
+#analisis {
+    
+    color: #c8253a; 
+}
+
+#map {
+    color: #000;
+}
+
+#transformation {
+    color: #173348;
+}

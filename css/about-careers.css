@@ -1,0 +1,32 @@
+.header-main h1 {
+    padding-top: 27rem!important;
+}
+
+.one-percent {
+    width: 130rem;
+    margin: 12rem auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.one-percent img {
+    height: 75rem;
+}
+
+.dialog-box {
+    margin-left: 10rem;
+    margin-top: 4rem;
+}
+
+.dialog-box h1 {
+    font-size: 8rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #c8253a;
+    line-height: 1.2;
+}
+
+.dialog-box p {
+    font-size: 2rem;
+}

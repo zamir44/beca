@@ -1,3 +1,5 @@
+
+//*** STICKY NAVIGATION ***//
 const header = document.getElementById("menu-wrapper");
 
 window.addEventListener(
@@ -10,6 +12,7 @@ window.addEventListener(
   { passive: true }
 );
 
+//*** THUMBNAIL MANIPULATION ***//
 const employee_wrapper = document.querySelector(".employers-images");
 let employees = [];
 
@@ -54,30 +57,20 @@ function loadEmpoloyee() {
   });
 }
 
-// window.onscroll = function () {
-//   var top = window.scrollY;
+$(window).scroll(function() {  
+  var scr = $(window).scrollTop();
+  var height = 300;
+  if(scr > height) {
+     $(document.body).addClass('fix-clouds'); /* add the class on scroll */
+  } else {
+     $(document.body).removeClass('fix-clouds'); /* remove when we go back to top */
+  }
+});
 
-//   if (top >= 50) {
-//     header.classList.add("sticky");
-//   } else {
-//     header.classList.remove("sticky");
-//   }
-// };
+//*** iMASK ***//
+$(document).ready(function() {
+  $('#phone').mask("(999) 999-999", {placeholder:"_________"})
+});
 
-// Hero parallax scroll
 
-// var background_image_parallax = function($object, multiplier){
-//   multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
-// 	multiplier = 1 - multiplier;
-//   var $doc = $(document);
-//   $object.css({"background-attatchment" : "fixed"});
-// 	$(window).scroll(function(){
-// 	  var from_top = $doc.scrollTop(),
-// 	      bg_css = '0px ' +(multiplier * from_top) + 'px';
-// 	  $object.css({"background-position" : bg_css });
-//   });
-// };
 
-//optional second value for speed
-//background_image_parallax($(".hero-img"), 0.95);
-// address the problem with the exposing upper part of the hero section

@@ -1,0 +1,111 @@
+
+.questions-box-form {
+    align-self: center;
+    height: 70%;
+    width: 50%;
+}
+
+form p {
+    font-size: 2rem;
+    margin-top: -1rem!important;
+    margin-bottom: 3rem;
+}
+
+input::placeholder {
+    color: #fff;
+    font-size: 1.8rem!important;
+}
+
+.grid-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 8rem;
+    margin: 0 auto;
+    width: 120rem;
+    color: #000;
+    justify-items: stretch;
+    text-align: center;
+    top: -7rem;
+    position: relative;
+}
+
+.item {
+    
+    background-image: linear-gradient(to top, #c8253a, #911221);
+    color: #fff;
+    padding: 3rem;
+    font-size: 150%;
+    justify-self: stretch;
+    
+}
+
+.item h2 {
+    font-size: 1.8rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.item a {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.item a:hover {
+    text-decoration: underline;
+
+}
+
+.textblock {
+    width: 100rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.textblock h2 {
+    font-size: 7rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #c8253a;
+} 
+
+.textblock p {
+    font-size: 2rem;
+}
+
+.box-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100rem;
+    margin: 8rem auto;
+    padding-bottom: 6rem;
+}
+
+.box {
+    background-image: linear-gradient(to bottom right, #F4EEED, #fff);
+    box-shadow: 20px 20px 69px -40px rgba(0,0,0,0.75);
+    color: #fff;
+    padding: 7rem;
+    text-align: center;
+}
+
+.box p {
+    font-size: 3.5rem;
+    font-weight: 300;
+    color: #000;
+    opacity: .72;
+    text-transform: uppercase;
+}
+
+.box a {
+    font-size: 1.6rem;
+    font-weight: 700;
+    background-color: #92A6AD;
+    color: #fff;
+    padding: 1rem 2.5rem;
+    border: none;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+}

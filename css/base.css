@@ -1,0 +1,429 @@
+/*** BASE ***/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  html {
+    font-size: 62.5%;
+  
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #000;
+    box-sizing: border-box;
+    
+  }
+  
+  /*** HERO SECTION ***/
+  
+  .hero-img {
+    height: 100vh;
+    background-image: url(../img/team.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+  
+  }
+  
+  .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(11, 26, 38, 0.8);
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+  
+  /*** NAVIGATION ***/
+  
+  .menu-wrapper {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .main-nav {
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .logo-red,
+  .logo-blue {
+    height: 11.5rem;
+    width: auto;
+    position: absolute;
+    top: 0;
+  }
+  
+  .main-nav .right-menu {
+    display: flex;
+  }
+  
+  .main-nav ul li a {
+    padding-bottom: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .main-nav ul li a:active,
+  .main-nav ul li a:link {
+    color: #fff;
+  }
+  
+  .main-nav ul li a:focus {
+    border-bottom: 3px solid #fff;
+  }
+  
+  .main-nav .menu-item-contact a:focus {
+    border: none;
+  }
+  
+  .right-menu .right-menu-item {
+    font-size: 1.4rem;
+    font-family: "Lato", sans-serif;
+    margin-right: 2.5rem;
+    list-style: none;
+    position: relative;
+    z-index: 44;
+  }
+  
+  .right-menu {
+    list-style-type: none;
+  }
+  
+  .right-menu li a:hover {
+    border-bottom: 3px solid #fff;
+    opacity: 0.8;
+    transition: border 0.4s;
+    -webkit-transition: border 0.4s;
+    -moz-transition: border 0.4s;
+    -ms-transition: border 0.4s;
+    -o-transition: border 0.4s;
+  }
+  
+  .right-menu .menu-item-contact a:hover {
+    border-bottom: none;
+  }
+  
+  .menu-item {
+    list-style: none;
+  }
+  
+  .contact {
+    border: 2px solid #fff;
+    padding: 0.8rem 0.5rem 0.8rem  0.5rem;
+    font-size: 1.4rem;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+  }
+  
+  /*** SUB MENU ***/
+  
+  .sub-menu-wrap {
+    width: 20rem;
+    padding-top: 2.3rem;
+    position: absolute;
+    top: 0;
+    right: -4.5rem;
+    display: none;
+  }
+  
+  .sub-menu {
+    width: 100%;
+    height: auto;
+    background-color: rgba(145, 18, 33, 1);
+    position: absolute;
+    right: -8rem;
+    margin-top: 2.8rem;
+    padding: 2.5rem;
+    display: none;
+  }
+  
+  .right-menu-item:hover .sub-menu-wrap {
+    display: block;
+  }
+  
+  .right-menu-item {
+    position: relative;
+    margin-right: 0px;
+    padding: 0 1rem; 
+  }
+  
+  .right-menu-item:hover .sub-menu {
+    width: 100%;
+    background-image: linear-gradient(to bottom, #c8253a, #911221);
+    padding: 2.5rem;
+    display: block;
+    box-shadow: 0 32px 60px rgba(0, 0, 0, 0.1);
+  }
+  
+  .main-nav li .sub-menu li a:hover {
+    font-weight: 700;
+    color: #2bdad6;
+    text-decoration: none ;
+    letter-spacing: 1px ;
+    border-bottom: none;
+    
+  }
+  
+  .sticky .main-nav li .sub-menu li a:hover {
+    border-bottom: none;
+    
+  }
+  
+  .menu-item {
+    margin-bottom: 1rem;
+  }
+  
+  
+  
+  
+  /*** STICKY NAV ***/
+  
+  .sticky {
+    background: rgba(145, 18, 33, 1);
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+  }
+  
+  .sticky .main-nav .right-menu li {
+    margin-top: 0;
+  }
+  
+  .sticky .main-nav .right-menu li a {
+    padding-bottom: 3rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .sticky .menu-item-contact a:hover {
+    border: none;
+  }
+  
+  .sticky .main-nav ul li a:focus {
+    border-bottom: 3px solid #2bdad6;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+  }
+  
+  .sticky .main-nav .right-menu li a:hover {
+    border-bottom: 3px solid #2bdad6;
+    opacity: 0.9;
+    position: relative;
+    z-index: 20;
+  }
+  
+  .sticky .main-nav .logo-blue {
+    display: block;
+    -moz-transition-timing-function: ease 0.5s;
+  }
+  
+  .sticky .logo-red {
+    display: none;
+  }
+
+
+
+  /*** FOOTER ***/
+
+.container-3 {
+    height: 30rem;
+    background-image: linear-gradient(to bottom, #c8253a, #911221);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .contact-company {
+    padding: 5rem 15rem;
+  }
+  
+  .contact-company span {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+  }
+  
+  .contact-company a,
+  .contact-details a,
+  .contact-details-two a {
+    text-decoration: none;
+  }
+  
+  .contact-company a span:hover,
+  .contact-details a span:hover,
+  .contact-details-two a span:hover {
+    color: #173348;
+  }
+  
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35rem;
+    padding-top: 5rem;
+  }
+  
+  .contact-details-two a {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-details-two a:hover {
+    color: #173348;
+  }
+  
+  .contact-details span {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-details-two {
+    padding-top: 2rem;
+  }
+  
+  .contact-details-two span {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /*** NEWSLETTER BOX ***/
+  
+  .contact-form {
+    height: 37rem;
+    width: 50rem;
+    background: linear-gradient(to top, #173348, #0a1621);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .contact-form h2 {
+    font-size: 3rem;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 7rem 0 2rem 0;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 5rem; */
+  }
+  
+  .contact-form-wrap {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .input {
+    background-color: transparent;
+    border: none;
+    border-bottom: solid white 2px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+  }
+  
+  .input::placeholder {
+    color: #2bdad6;
+    font-family: inherit;
+    font-size: 1.6rem;
+  }
+  
+  .input:focus {
+    outline: none;
+  }
+  
+  .input:focus::placeholder {
+    color: transparent;
+    transform: translateX(-200px);
+    transition: all 700ms linear;
+    -webkit-transition: all 500ms linear;
+    -moz-transition: all 700ms linear;
+    -ms-transition: all 700ms linear;
+    -o-transition: all 700ms linear;
+    -webkit-transform: translateX(-200px);
+    -moz-transform: translateX(-200px);
+    -ms-transform: translateX(-200px);
+    -o-transform: translateX(-200px);
+  }
+  
+  .btn-footer {
+    text-decoration: none;
+    padding: 1.3rem 3rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #0a1723;
+    letter-spacing: 1px;
+    background-color: #2bdad6;
+    display: inline-block;
+    margin-top: 3rem;
+    float: right;
+  }
+  
+  .right__circle.show {
+    transform: translateY(5rem);
+    -webkit-transform: translateY(5rem);
+    -moz-transform: translateY(5rem);
+    -ms-transform: translateY(5rem);
+    -o-transform: translateY(5rem);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  

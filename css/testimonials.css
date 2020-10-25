@@ -1,0 +1,138 @@
+
+  
+  /*** HEADER SECTION ***/
+  
+  .header-main {
+    height: 100vh;
+    width: 100rem;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    opacity: 0.93;
+  }
+  
+  .header-main h1 {
+    font-size: 11rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-top: 22rem;
+    line-height: 1.2;
+  }
+  
+  .header-main p {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-top: 2rem;
+  }
+  
+  .btn-header {
+    text-decoration: none;
+    padding: 1.3rem 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0a1723;
+    letter-spacing: 1px;
+    background-color: #2bdad6;
+    display: inline-block;
+    margin-top: 3rem;
+  }
+
+/*** CUSTOMER-SERVICE ***/
+
+.customer-service {
+  width: 100rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 15rem;
+}
+
+.customer-service h1 {
+  font-size: 6rem;
+  font-weight: 900;
+  color: #c8253a;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.customer-service p {
+  font-size: 2rem;
+}
+
+.customer-service span {
+  font-weight: bold;
+}
+
+/* TESTIMONIALS REVIEWS */
+
+.testimonial-reviews {
+  width: 120rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 15rem;
+}
+
+.review {
+  padding-top: 35rem;
+  padding-bottom: 35rem;
+  width: 45%;
+  text-align: center;
+  padding: 4rem;
+  margin-bottom: 12rem;
+}
+
+.review img {
+  transform: translateY(-15rem);
+  -webkit-transform: translateY(-15rem);
+  -moz-transform: translateY(-15rem);
+  -ms-transform: translateY(-15rem);
+  -o-transform: translateY(-15rem);
+}
+
+.review-text-wrapper {
+  margin-top: -15rem;
+}
+
+.blue {
+  background-color: #173348;
+}
+
+.blue h2 {
+  color: #c8253a;
+}
+
+.review h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.review p {
+  font-size: 2rem;
+  color: #fff;
+  opacity: .93;
+  line-height: 1.3;
+}
+
+.review p:nth-of-type(2) {
+  font-weight: 900;
+  margin-top: 3rem;
+}
+
+.red {
+  background-color: #c8253a;
+  margin-left: 10%;
+}
+
+.red h2 {
+  color: #173348;
+}
+
+  
+
